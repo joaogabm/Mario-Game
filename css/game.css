@@ -8,7 +8,7 @@ main{
     min-height: 100vh;
     align-items: center;
     justify-content: center;
-    background-color: rgb(220, 233, 244);
+    background-color: rgb(179, 211, 238);
 }
 
 .game-board{
