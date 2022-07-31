@@ -28,10 +28,11 @@ const loop = setInterval(() => {
         mario.style.width = '75px'
         mario.style.marginLeft = '50px'
 
-        clearInterval(this.loop);
 
+        alert(`Jogo finalizado! Parabéns, ${spanPlayer.innerHTML}, Seu tempo foi de ${timer.innerHTML} segundos.`);
+        clearInterval(this.loop);
         clearInterval(loop);
-    }
+    } 
 
     const startTimer = () => {
         this.loop = setInterval (() => {
