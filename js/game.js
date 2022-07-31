@@ -46,7 +46,6 @@ const loop = setInterval(() => {
     window.onload = () => {
         spanPlayer.innerHTML = localStorage.getItem('player');
         startTimer();
-        jump();
         loop();
     }
 
